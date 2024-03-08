@@ -214,7 +214,13 @@ type IntrospectionData =
   | { __schema: PartialIntrospectionSchema }
 
 type ExhaustiveAdditionalTypenamesExchangeOptions = {
+  /**
+   * A serialized GraphQL schema that is used by detect list fields.
+   */
   schema: IntrospectionData
+  /**
+   * If true, the detected list fields will be logged to the console.
+   */
   debug?: boolean
 }
 
@@ -225,7 +231,6 @@ export const exhaustiveAdditionalTypenamesExchange = ({
   // PartialIntrospectionSchemaなので型は合わない
   // ちゃんとやるならurqlのgraphcacheのようにbuildClientSchemaを自前で実装する必要がある
   // @see: https://github.com/urql-graphql/urql/blob/8ff4e3e449b7eece8a64566f54b04dfdb534eccb/exchanges/graphcache/src/ast/schema.ts?plain=1#L46
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
   const schema = buildClientSchema(_schema)
 
