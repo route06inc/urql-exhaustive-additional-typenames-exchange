@@ -12,6 +12,7 @@
   "scripts": {
     "setup": "corepack enable pnpm",
     "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest",
     "lint": "biome check .",
     "format": "pnpm format:biome:format && pnpm format:biome:check",
     "format:biome:format": "biome format --write .",
@@ -25,7 +26,8 @@
     "@biomejs/biome": "1.5.3",
     "@types/node": "20.11.7",
     "tsup": "8.0.2",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "vitest": "^1.3.1"
   },
   "peerDependencies": {
     "graphql": "16.8.1"
