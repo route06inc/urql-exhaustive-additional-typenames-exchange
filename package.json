@@ -1,0 +1,29 @@
+{
+  "name": "urql-exhaustive-additional-typenames-exchange",
+  "version": "0.1.0",
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "setup": "corepack enable pnpm",
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "dependencies": {
+    "@urql/core": "4.2.2",
+    "@urql/exchange-context": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.7",
+    "tsup": "8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "graphql": "16.8.1"
+  },
+  "packageManager": "pnpm@8.15.4"
+}
