@@ -14,18 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/route06/urql-exhaustive-additional-typenames-exchange.git"
   },
-  "keywords": [
-    "urql",
-    "exchange",
-    "graphql",
-    "exchanges"
-  ],
-  "files": [
-    "LICENSE",
-    "CHANGELOG.md",
-    "README.md",
-    "dist/"
-  ],
+  "keywords": ["urql", "exchange", "graphql", "exchanges"],
+  "files": ["LICENSE", "CHANGELOG.md", "README.md", "dist/"],
   "bugs": {
     "url": "https://github.com/route06/urql-exhaustive-additional-typenames-exchange/issues"
   },
@@ -47,7 +37,7 @@
     "@urql/exchange-context": ">=0.2.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
+    "@biomejs/biome": "1.6.1",
     "@types/node": "20.11.7",
     "tsup": "8.0.2",
     "typescript": "5.4.2",
