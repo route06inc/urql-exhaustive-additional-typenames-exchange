@@ -1,5 +1,8 @@
 # urql-exhaustive-additional-typenames-exchange
 
+[![npm version](https://badge.fury.io/js/urql-exhaustive-additional-typenames-exchange.svg)](https://badge.fury.io/js/urql-exhaustive-additional-typenames-exchange)
+[![ci](https://github.com/route06/urql-exhaustive-additional-typenames-exchange/actions/workflows/ci.yml/badge.svg)](https://github.com/route06/urql-exhaustive-additional-typenames-exchange/actions/workflows/ci.yml)
+
 `urql-exhaustive-additional-typenames-exchange` add all list fields in an operation to additionalTypenames.  
 This is useful if your project is more about avoiding the risk of bugs from cache operations than cache efficiency.
 
