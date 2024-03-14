@@ -27,10 +27,8 @@
     "setup": "corepack enable pnpm",
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "test": "vitest",
-    "lint": "biome check .",
-    "format": "pnpm format:biome:format && pnpm format:biome:check",
-    "format:biome:format": "biome format --write .",
-    "format:biome:check": "biome check --apply ."
+    "lint": "biome lint .",
+    "format": "biome check --apply ."
   },
   "dependencies": {
     "@urql/core": ">=4.0.0",
