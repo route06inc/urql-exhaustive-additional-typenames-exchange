@@ -1,7 +1,7 @@
 {
   "name": "urql-exhaustive-additional-typenames-exchange",
   "description": "urql exchange that add all list fields in an operation to additionalTypenames",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "sideEffects": false,
   "exports": {
@@ -14,8 +14,18 @@
     "type": "git",
     "url": "git+https://github.com/route06inc/urql-exhaustive-additional-typenames-exchange.git"
   },
-  "keywords": ["urql", "exchange", "graphql", "exchanges"],
-  "files": ["LICENSE", "CHANGELOG.md", "README.md", "dist/"],
+  "keywords": [
+    "urql",
+    "exchange",
+    "graphql",
+    "exchanges"
+  ],
+  "files": [
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md",
+    "dist/"
+  ],
   "bugs": {
     "url": "https://github.com/route06inc/urql-exhaustive-additional-typenames-exchange/issues"
   },
