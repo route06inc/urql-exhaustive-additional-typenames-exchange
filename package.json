@@ -12,14 +12,14 @@
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/route06/urql-exhaustive-additional-typenames-exchange.git"
+    "url": "git+https://github.com/route06inc/urql-exhaustive-additional-typenames-exchange.git"
   },
   "keywords": ["urql", "exchange", "graphql", "exchanges"],
   "files": ["LICENSE", "CHANGELOG.md", "README.md", "dist/"],
   "bugs": {
-    "url": "https://github.com/route06/urql-exhaustive-additional-typenames-exchange/issues"
+    "url": "https://github.com/route06inc/urql-exhaustive-additional-typenames-exchange/issues"
   },
-  "homepage": "https://github.com/route06/urql-exhaustive-additional-typenames-exchange",
+  "homepage": "https://github.com/route06inc/urql-exhaustive-additional-typenames-exchange",
   "publishConfig": {
     "access": "public"
   },
