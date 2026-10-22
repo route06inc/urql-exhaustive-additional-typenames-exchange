@@ -8,4 +8,11 @@ permissions:
 
 jobs:
   dependency_review:
-    uses: route06/actions/.github/workflows/dependency_review.yml@3bcea5bf834ff2e0e6c912c1167fcc1fe05e49c2 # v2
+    name: dependency_review / dependency_review
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48 # v4.9.0
+        with:
+          comment-summary-in-pr: on-failure
